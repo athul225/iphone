@@ -1,5 +1,12 @@
 usruryhrfhrd
 
-
+<div class="new">
+            <p>New & Featured</p>
+            <p>Men</p>
+            <p>Women</p>
+            <p>Kids</p>
+            <p>Sale</p>
+            <p>SNKRS</p>
+        </div>
 
 
