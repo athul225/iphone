@@ -46,26 +46,39 @@
        font-weight:900;
        font-style:normal;
    }
+   .new a{
+    text-decoration: none;
+    color: black;
+   }
    .search{
-       flex:1;
-       display:flex;
-       justify-content:center;
-       align-items:center;
+     flex:1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:none;
    }
    .text{
        width:70%;
        height:30px;
        border-radius:15px;
        padding-left: 10px;
-       border:1px solid black;
+       /* border:1px solid; */
        background-color:rgba(243, 241, 241, 0.747);
+       border:none;
    }
    .icon{
-       flex:0.5;
-       display:flex;
-       justify-content: center;
-       align-items: center;
-   
+    position: relative;
+    right: 55px;
+    top: 25px;
+    color:grey;
+    border:none;
+   }
+   .icon2{
+    flex:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
    }
    .store{
        flex:0.5;
@@ -157,6 +170,7 @@
        flex:1;
        height:750px;
        width:600px;
+     
    }
    .word1{
        font-size: 28px;
@@ -191,6 +205,7 @@
        flex:1;
        height:750px;
        width:600px;
+       margin-left: 12px;
    
    }
    .word2{
@@ -226,6 +241,7 @@
        flex:1;
        height:750px;
        width:600px;
+       margin-left: 12px;
    }
    .word3{
        font-size: 28px;
@@ -268,13 +284,17 @@
    .six{
    
        display:flex;
-       overflow:auto;
+       /* overflow:auto; */
        /* height:200px; */
        position:relative;
        top:20px;
+       /* height: 500px;
+       width: 500px; */
    }
    .six .shoe1{
        display:flex;
+       height: 500px;
+       width: 500px;
        flex:1;
    }
    .six .name1{
@@ -288,6 +308,7 @@
    .six .shoe2{
        display:flex;
        flex:1;
+       margin-left:20px;
    }
    .six .name2{
        font-size: 30px;
@@ -300,6 +321,7 @@
    .six .shoe3{
        display:flex;
        flex:1;
+       margin-left:20px;
    }
    .six .name3{
        font-size: 30px;
@@ -312,6 +334,7 @@
    .six .shoe4{
        display:flex;
        flex:1;
+       margin-left:20px;
    }
    .six .name4{
        display:flex;
@@ -325,6 +348,7 @@
    .six .shoe5{
        display:flex;
        flex:1;
+       margin-left:20px;
    }
    .six .name5{
        display:flex;
@@ -340,6 +364,7 @@
    .six .shoe6{
        display:flex;
        flex:1;
+       margin-left:20px;
    }
    .six .name6{
        display:flex;
@@ -351,7 +376,8 @@
         
    }
    .seven{
-   
+   position:relative;
+   top:-100px;
    }
    .trending{
        font-size: 35px;
@@ -427,7 +453,7 @@
    }
    .eight{
       position:relative;
-      top:200px;
+      top:100px;
       
    }
    .eight .sport{
@@ -469,6 +495,7 @@
    }
    .eight .football{
        flex:1;
+       margin-left:-70px;
        /* height:750px;
        width:600px; */
    }
@@ -494,6 +521,7 @@
    }
    .eight .basketball{
        flex:1;
+       margin-left:-50px;
        /* height:750px;
        width:600px; */
    }
@@ -519,6 +547,7 @@
    }
    .eight .gym{
        flex:1;
+       margin-left:-70px;
        /* height:750px;
        width:600px; */
    }
@@ -544,7 +573,7 @@
    }
    .nine{
        position:relative;
-       top:300px;
+       top:200px;
    }
    .nine .member{
        position:relative;
@@ -596,6 +625,7 @@
        flex:1;
        height:750px;
        width:600px;
+       margin-left: 12px;
    
    }
    .word5{
@@ -631,6 +661,7 @@
        flex:1;
        height:750px;
        width:600px;
+       margin-left: 12px;
    }
    .word6{
        font-size: 28px;
@@ -716,6 +747,10 @@
     font-size: 15px;
     color:grey;
    }
+   hr{
+    position: relative;
+    top:80px;
+   }
    .elev{
     /* padding:200px;  */
      position:relative;
@@ -755,4 +790,52 @@
     font-size: 15px;
     color:grey;
    }
- 
+   .last{
+    display: flex;
+    position:relative;
+     top:300px;
+     justify-content: center;
+     align-items: center;
+     height:500px;
+   }
+   .itm{
+    width:25%;
+    padding:0 10px;
+    color:grey;
+   }
+   .itm1{
+    flex:2;
+   }
+   .itm2{
+    flex:1;
+    border:none;
+   }
+   .itm2 select{
+    border:none;
+    color:grey;
+    background-color: white;;
+   }
+   .itm3{
+    flex:1;
+   }
+   .itm4{
+    flex:1;
+   }
+   .itm5{
+    flex:8;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   @media(max-width:769px){
+
+   }
